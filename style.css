@@ -1,0 +1,112 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+}
+
+h1 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    font-size: 48 px;
+    color: #000000;
+    border-bottom:   6px  solid  #007BFF;
+    border-radius: 60px;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 55px;
+
+}
+
+.products {
+
+    padding-left: 102px;
+    padding-right: 102px;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+
+}
+
+
+.card {
+
+    width: calc((100% - 3*12px) / 4);
+    border: solid 1px #32323232;
+    padding: 12px;
+    border-radius: 6px;
+   
+
+}
+
+.card:nth-child(4) {
+
+    margin-right: 0;
+} 
+
+
+
+img {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+h3 {
+
+    font: 700 22px  "Glory", sans-serif;
+    color: #323232;
+    margin-bottom: 12px;
+
+}
+
+.des {
+
+    font: 700  20px "Glory", sans-serif;
+    color: #32323296;
+    margin-bottom: 12px;
+
+}
+
+.price {
+
+    font: 700  22px  "Glory", sans-serif;
+    color: #28A745;
+    margin-bottom: 12px;
+
+}
+
+span {
+
+    font: 700  18px  "Glory", sans-serif;
+    color: #DC3545;
+    text-decoration: line-through solid  #8f232d ;
+}
+
+
+
+.actions .add-to-cart {
+
+    background-color: #007BFF;
+    border: none;
+    border-bottom-left-radius: 6px;
+    color: #fff;
+    font: 700  20px  "Glory", sans-serif;
+    padding: 13px  50px;
+   
+    
+}
+
+
+.actions .wishlist {
+
+    border: 2px solid #007BFF;
+    border-bottom-right-radius: 6px;
+    padding: 10px;
+    background-color: #fff;
+    color: #007BFF;
+    
+}
