@@ -68,6 +68,7 @@ h3 {
     font: 700  20px "Glory", sans-serif;
     color: #32323296;
     margin-bottom: 12px;
+    
 
 }
 
@@ -87,18 +88,32 @@ span {
 }
 
 
+.actions {
+    display: flex;
+    gap: 3px;
+    
+    
+    
+}
 
 .actions .add-to-cart {
 
     background-color: #007BFF;
-    border: none;
+    border: 2px  solid #007BFF;
     border-bottom-left-radius: 6px;
     color: #fff;
     font: 700  20px  "Glory", sans-serif;
     padding: 13px  50px;
-   
     
+   
 }
+
+.add-to-cart:hover {
+    background-color: #fff;
+    color: #007BFF;
+    /* border: #fff; */
+}
+
 
 
 .actions .wishlist {
@@ -109,4 +124,10 @@ span {
     background-color: #fff;
     color: #007BFF;
     
+}
+
+.wishlist:hover {
+    color: #fff;
+    background-color: #007BFF;
+
 }
